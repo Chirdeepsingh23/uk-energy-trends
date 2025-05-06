@@ -12,7 +12,7 @@ with DAG(
     dag_id='uk_energy_generation_fetch',
     default_args=default_args,
     description='Fetch UK energy generation data daily',
-    schedule_interval='@daily',  # You can change to '@hourly' if you prefer
+    schedule_interval='@hourly',  #Change according to preference
     start_date=datetime(2024, 1, 1),
     catchup=False,
 ) as dag:
