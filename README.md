@@ -5,7 +5,7 @@ This project analyses the UK's electricity generation mix using real-time and hi
 ---
 
 ## 📦 Project Structure
-
+```text
 uk-energy-trends/
 ├── dags/ # Airflow DAGs
 ├── data/ # CSV data files (excluded from Git)
@@ -14,8 +14,7 @@ uk-energy-trends/
 ├── scripts/ # Data fetch + backfill scripts
 ├── .gitignore
 ├── README.md
-└── requirements.txt
-
+└── requirements.txt```
 
 ---
 
@@ -75,25 +74,40 @@ It highlights:
 1. Clone the repo:
 ```bash
 git clone https://github.com/your-username/uk-energy-trends.git
-cd uk-energy-trends
-
+cd uk-energy-trends```bash
+```
 2. Set up virtual environment:
+```bash 
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-
+```
 3. Backfill historical Data (optional): 
+```bash
 python scripts/backfill_generation_mix.py
-
-4. Start Airflow: 
+```
+4. Start Airflow in seperate terminal windows: 
+```bash 
 airflow scheduler
+```
+```bash
 airflow webserver
+```
+Access the Airflow UI at: http://localhost:8080
 
 ---
 
 ## Full Analysis
 View the full Jupyter Notebook here:
-energy_trend_visualisation.ipynb
+```text 
+notebooks/energy_trend_visualisation.ipynb
+```
+Key analyses include:
+- Hourly fuel mix patterns
+- Weekday vs weekend trends
+- Seasonal and monthly breakdowns
+- Clean vs fossil fuel share over time
+- Top fuel contributors
 
 ## 📝Credits
 
