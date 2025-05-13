@@ -14,7 +14,8 @@ uk-energy-trends/
 ├── scripts/ # Data fetch + backfill scripts
 ├── .gitignore
 ├── README.md
-└── requirements.txt```
+└── requirements.txt
+```
 
 ---
 
