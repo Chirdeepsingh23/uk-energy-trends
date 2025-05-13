@@ -1,6 +1,6 @@
 # 🇬🇧 UK Energy Trends (2024–2025)
 
-This project analyses the UK's electricity generation mix using real-time and historical data from the [Carbon Intensity API](https://carbon-intensity.github.io/). It combines **data engineering**, **automated scheduling**, and **exploratory analysis** to uncover insights into clean vs fossil fuel usage patterns.
+This project analyses the UK's electricity generation mix using real-time and historical data from the [Carbon Intensity API](https://api.carbonintensity.org.uk). It combines **data engineering**, **automated scheduling**, and **exploratory analysis** to uncover insights into clean vs fossil fuel usage patterns.
 
 ---
 
